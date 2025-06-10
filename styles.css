@@ -1,0 +1,47 @@
+body{
+    background-color:#442C2E;
+    font-family:"Poppins", "Inter", "Open Sans", sans-serif;
+
+}
+.blog-post-card{
+    background-color:white;
+    border-radius:40px;
+    width:400px;
+    text-align:center;
+    margin:20px auto;
+}
+.post-img{
+    display: block;
+    width:100%;
+    margin:20px auto;
+    border-radius:40px;
+    border-bottom:2px solid #442C2E;    
+}
+.post-content{
+    padding: 10px;
+    line-height:1.6;
+    
+}
+.post-title{
+    color:brown;
+    margin: 10px;
+    font-size:24px;
+}
+.post-excerpt{
+    color:#5C2E2E;
+    font-size:16px;
+}
+.read-more{
+    color: rgba(133, 45, 5, 0.89);
+    background-color:blanchedalmond;
+    margin:20px;
+    padding:10px;
+    border-radius:20px;
+    display:inline-block;
+    text-decoration:none;
+    font-size:16px;    
+}
+.read-more:hover{
+    background-color:beige;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
